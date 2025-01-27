@@ -1,5 +1,5 @@
 ﻿
-    using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
@@ -81,6 +81,20 @@ public class PlayerMove : MonoBehaviour
         {
             puedeSaltar = true;
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+            UnityEditor.EditorApplication.isPlaying = false;
+
+        }
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+
+            SceneManager.LoadScene("Title");
+        }
+
+
     }
 }
 
