@@ -18,21 +18,20 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // Evita que este objeto se destruya al cambiar de escena
+        }
+        else
+        {
+            Destroy(gameObject); // Previene duplicados
+        }
     }
 
     public void AddScore(int value)
     {
         Score += value;
     }
-
-    public void ResetGame()
-    {
-        Score = 0;
-        SceneManager.LoadScene("Title");
-    }
-
-    public void EndGame()
-    {
-        SceneManager.LoadScene("Ending");
-    }
+    
 }

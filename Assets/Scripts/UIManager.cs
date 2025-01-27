@@ -20,4 +20,5 @@ public class UIManager : MonoBehaviour
     {
         scoreText.text = "Score: " + newScore;
     }
+
 }

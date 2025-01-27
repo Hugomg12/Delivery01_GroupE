@@ -1,5 +1,6 @@
 ﻿
     using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -33,7 +34,12 @@ public class PlayerMove : MonoBehaviour
 
             fuerzaSalto = fuerzaSalto * 2;
         }
+        if (other.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene("Ending");
+        }
     }
+
 
     private void Update()
     {
