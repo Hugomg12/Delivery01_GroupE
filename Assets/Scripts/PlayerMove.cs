@@ -4,7 +4,7 @@
 public class PlayerMove : MonoBehaviour
 {
     public float velocidadCaminar = 5f;
-    public float fuerzaSalto = 10f;
+    public float fuerzaSalto = 5f;
     public GameObject GroundCheck;
 
     private bool enSuelo;
@@ -24,6 +24,15 @@ public class PlayerMove : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         saltosRestantes = maxSaltos;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Respawn"))
+        {
+
+            fuerzaSalto = fuerzaSalto * 2;
+        }
     }
 
     private void Update()
