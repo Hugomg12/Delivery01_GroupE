@@ -388,6 +388,7 @@
 "Assets/Scripts/Coin.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/PlayerMove.cs"
+"Assets/Scripts/TitleManager.cs"
 "Assets/Scripts/UIManager.cs"
 -langversion:9.0
 /deterministic
