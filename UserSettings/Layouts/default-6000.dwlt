@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Scene
+=======
+  m_Title: Project
+>>>>>>> db1361e17853f420cda6213d735a88f3f2928450
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -327,7 +331,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -337,16 +341,22 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Fernando\Desktop\Delivery01_GroupE
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 425b0000
     m_LastClickedID: 23362
     m_ExpandedIDs: 00000000ee5a0000405b0000
+=======
+    m_SelectedIDs: 8c5b0000
+    m_LastClickedID: 23436
+    m_ExpandedIDs: 00000000345b0000865b0000
+>>>>>>> db1361e17853f420cda6213d735a88f3f2928450
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -375,7 +385,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ee5a0000
+=======
+    m_ExpandedIDs: 00000000345b0000
+>>>>>>> db1361e17853f420cda6213d735a88f3f2928450
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -523,9 +537,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 28fbffff
+=======
+      m_SelectedIDs: 8c5d0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 1ae9ffff86eaffff88efffffe2f1ffff28fbffff4c5e0000
+>>>>>>> db1361e17853f420cda6213d735a88f3f2928450
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1032,9 +1052,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 6.448346, y: 4.2826242, z: 0.86600155}
     speed: 2
     m_Value: {x: 5.846797, y: 3.9262393, z: 0.87336844}
+=======
+    m_Target: {x: 5.824644, y: -0.23933315, z: -0.056454428}
+    speed: 2
+    m_Value: {x: 5.824644, y: -0.23933315, z: -0.056454428}
+>>>>>>> db1361e17853f420cda6213d735a88f3f2928450
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1084,9 +1110,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 17.107536
     speed: 2
     m_Value: 16.370848
+=======
+    m_Target: 10.450817
+    speed: 2
+    m_Value: 10.450817
+>>>>>>> db1361e17853f420cda6213d735a88f3f2928450
   m_Ortho:
     m_Target: 1
     speed: 2

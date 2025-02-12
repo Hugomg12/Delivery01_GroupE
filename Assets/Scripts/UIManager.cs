@@ -11,14 +11,9 @@ public class UIManager : MonoBehaviour
         Coin.OnCoinCollected += UpdateScore;
     }
 
-    void OnDisable()
+    private void UpdateScore(int Score)
     {
-        Coin.OnCoinCollected -= UpdateScore;
-    }
-
-    private void UpdateScore(int newScore)
-    {
-        scoreText.text = "Score: " + newScore;
+        scoreText.text = "Score: " + Score;
     }
 
 }
